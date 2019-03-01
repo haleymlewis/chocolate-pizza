@@ -2,19 +2,19 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
     margin: 0 auto;
+    max-width: 900px;
+    border: solid 1px orange;
 }
 
 header {
     height: 75px;
-    min-width: 100%;
-    margin: 0 auto; 
+    min-width: 100%; 
 }
 
 header img {
     float: left;
     margin-top: 10px;
     margin-left: 5px;
-    margin: 0 auto;
 }
 
 header li {
@@ -22,14 +22,12 @@ header li {
     margin-top: 10px;
     margin-right: 5px;
     padding: 5px;
-    margin: 0 auto;
 }
 
 
 .body-head h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-    margin: 0 auto;
 }
 
 .body-head h2 {
@@ -42,8 +40,34 @@ header li {
     float: right;
 }
 
-/* .body-head div:nth-child() */
-
 .hero {
     margin: 0 auto;
+}
+
+.directions p {
+    text-indent: 25px;
+    line-height: 1.6;
+}
+
+.ingredients img {
+    position: absolute;
+    margin-top: 25px;
+    z-index: -1;
+}
+
+.ingredients ul {
+    margin-top: 30px;
+    list-style-type: square;
+    font-family: 'Mali', cursive;
+    line-height: 2;
+}
+
+.ul-1 {
+    margin-left: 100px;
+    float: left;
+}
+
+.ul-2 {
+    margin-right: 20px;
+    float: right;
 }
