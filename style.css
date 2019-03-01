@@ -3,7 +3,6 @@ body {
     background-color: white;
     margin: 0 auto;
     max-width: 900px;
-    border: solid 1px orange;
 }
 
 header {
@@ -121,9 +120,16 @@ header li {
 
 #dash2 {
   margin-left: 25px;
+  margin-bottom: 10px;
 }
 
 #line2 {
   float: right;
   width: 45%;
+}
+
+footer h4 {
+  color: grey;
+  font-size: 10px;
+  text-align: center;
 }
