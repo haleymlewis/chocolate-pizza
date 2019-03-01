@@ -56,7 +56,7 @@ header li {
 }
 
 .ingredients ul {
-    margin-top: 30px;
+    margin-top: 70px;
     list-style-type: square;
     font-family: 'Mali', cursive;
     line-height: 2;
@@ -68,6 +68,62 @@ header li {
 }
 
 .ul-2 {
-    margin-right: 20px;
+    margin-right: 25px;
     float: right;
+}
+
+.bio {
+    margin-top: 350px;
+}
+
+.bio img {
+    float: left;
+    margin-right: 10px;
+}
+
+.bio h3 {
+    /* float: left; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bio p {
+    float: left;
+    max-width: 350px;
+    margin-top: 5px;
+}
+
+.about {
+  float: 
+}
+
+.bio button {
+    float: right;
+    border: none;
+  background: #000;
+  color: #fff;
+  padding: 8px 20px;
+  transition: 350ms all;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+#dash {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#line1 {
+  float: left;
+  width: 45%;
+}
+
+#dash2 {
+  margin-left: 25px;
+}
+
+#line2 {
+  float: right;
+  width: 45%;
 }
